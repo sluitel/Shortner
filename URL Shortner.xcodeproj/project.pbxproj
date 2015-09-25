@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0322631BB4C53100102174 /* ExtensionAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0322621BB4C53100102174 /* ExtensionAssets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		BB8056FA1BB3A0C900A7D467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8056F91BB3A0C900A7D467 /* AppDelegate.swift */; };
+		BB8056FC1BB3A0C900A7D467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8056FB1BB3A0C900A7D467 /* ViewController.swift */; };
+		BB8056FF1BB3A0C900A7D467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8056FD1BB3A0C900A7D467 /* Main.storyboard */; };
+		BB8057011BB3A0C900A7D467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB8057001BB3A0C900A7D467 /* Assets.xcassets */; };
+		BB8057041BB3A0C900A7D467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8057021BB3A0C900A7D467 /* LaunchScreen.storyboard */; };
+		BB80570F1BB3A0C900A7D467 /* URL_ShortnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80570E1BB3A0C900A7D467 /* URL_ShortnerTests.swift */; };
+		BB80571A1BB3A0C900A7D467 /* URL_ShortnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8057191BB3A0C900A7D467 /* URL_ShortnerUITests.swift */; };
+		BB80572E1BB3A11A00A7D467 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80572D1BB3A11A00A7D467 /* ActionViewController.swift */; };
+		BB8057311BB3A11A00A7D467 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB80572F1BB3A11A00A7D467 /* MainInterface.storyboard */; };
+		BB8057351BB3A11A00A7D467 /* Shorten.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BB80572B1BB3A11A00A7D467 /* Shorten.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB80570B1BB3A0C900A7D467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8056EE1BB3A0C800A7D467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8056F51BB3A0C800A7D467;
+			remoteInfo = "URL Shortner";
+		};
+		BB8057161BB3A0C900A7D467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8056EE1BB3A0C800A7D467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8056F51BB3A0C800A7D467;
+			remoteInfo = "URL Shortner";
+		};
+		BB8057331BB3A11A00A7D467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8056EE1BB3A0C800A7D467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB80572A1BB3A11A00A7D467;
+			remoteInfo = Shorten;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB8057391BB3A11A00A7D467 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BB8057351BB3A11A00A7D467 /* Shorten.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BB0322621BB4C53100102174 /* ExtensionAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ExtensionAssets.xcassets; sourceTree = "<group>"; };
+		BB8056F61BB3A0C800A7D467 /* URL Shortner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "URL Shortner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8056F91BB3A0C900A7D467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB8056FB1BB3A0C900A7D467 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB8056FE1BB3A0C900A7D467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB8057001BB3A0C900A7D467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB8057031BB3A0C900A7D467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB8057051BB3A0C900A7D467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB80570A1BB3A0C900A7D467 /* URL ShortnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URL ShortnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB80570E1BB3A0C900A7D467 /* URL_ShortnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL_ShortnerTests.swift; sourceTree = "<group>"; };
+		BB8057101BB3A0C900A7D467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB8057151BB3A0C900A7D467 /* URL ShortnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URL ShortnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8057191BB3A0C900A7D467 /* URL_ShortnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL_ShortnerUITests.swift; sourceTree = "<group>"; };
+		BB80571B1BB3A0C900A7D467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB80572B1BB3A11A00A7D467 /* Shorten.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Shorten.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB80572D1BB3A11A00A7D467 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		BB8057301BB3A11A00A7D467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		BB8057321BB3A11A00A7D467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB8056F31BB3A0C800A7D467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8057071BB3A0C900A7D467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8057121BB3A0C900A7D467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8057281BB3A11A00A7D467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB8056ED1BB3A0C800A7D467 = {
+			isa = PBXGroup;
+			children = (
+				BB8056F81BB3A0C800A7D467 /* URL Shortner */,
+				BB80570D1BB3A0C900A7D467 /* URL ShortnerTests */,
+				BB8057181BB3A0C900A7D467 /* URL ShortnerUITests */,
+				BB80572C1BB3A11A00A7D467 /* Shorten */,
+				BB8056F71BB3A0C800A7D467 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB8056F71BB3A0C800A7D467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB8056F61BB3A0C800A7D467 /* URL Shortner.app */,
+				BB80570A1BB3A0C900A7D467 /* URL ShortnerTests.xctest */,
+				BB8057151BB3A0C900A7D467 /* URL ShortnerUITests.xctest */,
+				BB80572B1BB3A11A00A7D467 /* Shorten.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB8056F81BB3A0C800A7D467 /* URL Shortner */ = {
+			isa = PBXGroup;
+			children = (
+				BB8056F91BB3A0C900A7D467 /* AppDelegate.swift */,
+				BB8056FB1BB3A0C900A7D467 /* ViewController.swift */,
+				BB8056FD1BB3A0C900A7D467 /* Main.storyboard */,
+				BB8057001BB3A0C900A7D467 /* Assets.xcassets */,
+				BB8057021BB3A0C900A7D467 /* LaunchScreen.storyboard */,
+				BB8057051BB3A0C900A7D467 /* Info.plist */,
+			);
+			path = "URL Shortner";
+			sourceTree = "<group>";
+		};
+		BB80570D1BB3A0C900A7D467 /* URL ShortnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB80570E1BB3A0C900A7D467 /* URL_ShortnerTests.swift */,
+				BB8057101BB3A0C900A7D467 /* Info.plist */,
+			);
+			path = "URL ShortnerTests";
+			sourceTree = "<group>";
+		};
+		BB8057181BB3A0C900A7D467 /* URL ShortnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB8057191BB3A0C900A7D467 /* URL_ShortnerUITests.swift */,
+				BB80571B1BB3A0C900A7D467 /* Info.plist */,
+			);
+			path = "URL ShortnerUITests";
+			sourceTree = "<group>";
+		};
+		BB80572C1BB3A11A00A7D467 /* Shorten */ = {
+			isa = PBXGroup;
+			children = (
+				BB80572D1BB3A11A00A7D467 /* ActionViewController.swift */,
+				BB0322621BB4C53100102174 /* ExtensionAssets.xcassets */,
+				BB80572F1BB3A11A00A7D467 /* MainInterface.storyboard */,
+				BB8057321BB3A11A00A7D467 /* Info.plist */,
+			);
+			path = Shorten;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB8056F51BB3A0C800A7D467 /* URL Shortner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB80571E1BB3A0C900A7D467 /* Build configuration list for PBXNativeTarget "URL Shortner" */;
+			buildPhases = (
+				BB8056F21BB3A0C800A7D467 /* Sources */,
+				BB8056F31BB3A0C800A7D467 /* Frameworks */,
+				BB8056F41BB3A0C800A7D467 /* Resources */,
+				BB8057391BB3A11A00A7D467 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8057341BB3A11A00A7D467 /* PBXTargetDependency */,
+			);
+			name = "URL Shortner";
+			productName = "URL Shortner";
+			productReference = BB8056F61BB3A0C800A7D467 /* URL Shortner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB8057091BB3A0C900A7D467 /* URL ShortnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8057211BB3A0C900A7D467 /* Build configuration list for PBXNativeTarget "URL ShortnerTests" */;
+			buildPhases = (
+				BB8057061BB3A0C900A7D467 /* Sources */,
+				BB8057071BB3A0C900A7D467 /* Frameworks */,
+				BB8057081BB3A0C900A7D467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB80570C1BB3A0C900A7D467 /* PBXTargetDependency */,
+			);
+			name = "URL ShortnerTests";
+			productName = "URL ShortnerTests";
+			productReference = BB80570A1BB3A0C900A7D467 /* URL ShortnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB8057141BB3A0C900A7D467 /* URL ShortnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8057241BB3A0C900A7D467 /* Build configuration list for PBXNativeTarget "URL ShortnerUITests" */;
+			buildPhases = (
+				BB8057111BB3A0C900A7D467 /* Sources */,
+				BB8057121BB3A0C900A7D467 /* Frameworks */,
+				BB8057131BB3A0C900A7D467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8057171BB3A0C900A7D467 /* PBXTargetDependency */,
+			);
+			name = "URL ShortnerUITests";
+			productName = "URL ShortnerUITests";
+			productReference = BB8057151BB3A0C900A7D467 /* URL ShortnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BB80572A1BB3A11A00A7D467 /* Shorten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8057361BB3A11A00A7D467 /* Build configuration list for PBXNativeTarget "Shorten" */;
+			buildPhases = (
+				BB8057271BB3A11A00A7D467 /* Sources */,
+				BB8057281BB3A11A00A7D467 /* Frameworks */,
+				BB8057291BB3A11A00A7D467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shorten;
+			productName = Shorten;
+			productReference = BB80572B1BB3A11A00A7D467 /* Shorten.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB8056EE1BB3A0C800A7D467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Luitel Apps";
+				TargetAttributes = {
+					BB8056F51BB3A0C800A7D467 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BB8057091BB3A0C900A7D467 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BB8056F51BB3A0C800A7D467;
+					};
+					BB8057141BB3A0C900A7D467 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BB8056F51BB3A0C800A7D467;
+					};
+					BB80572A1BB3A11A00A7D467 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = BB8056F11BB3A0C800A7D467 /* Build configuration list for PBXProject "URL Shortner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB8056ED1BB3A0C800A7D467;
+			productRefGroup = BB8056F71BB3A0C800A7D467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB8056F51BB3A0C800A7D467 /* URL Shortner */,
+				BB8057091BB3A0C900A7D467 /* URL ShortnerTests */,
+				BB8057141BB3A0C900A7D467 /* URL ShortnerUITests */,
+				BB80572A1BB3A11A00A7D467 /* Shorten */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB8056F41BB3A0C800A7D467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8057041BB3A0C900A7D467 /* LaunchScreen.storyboard in Resources */,
+				BB8057011BB3A0C900A7D467 /* Assets.xcassets in Resources */,
+				BB8056FF1BB3A0C900A7D467 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8057081BB3A0C900A7D467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8057131BB3A0C900A7D467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8057291BB3A11A00A7D467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0322631BB4C53100102174 /* ExtensionAssets.xcassets in Resources */,
+				BB8057311BB3A11A00A7D467 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB8056F21BB3A0C800A7D467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8056FC1BB3A0C900A7D467 /* ViewController.swift in Sources */,
+				BB8056FA1BB3A0C900A7D467 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8057061BB3A0C900A7D467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB80570F1BB3A0C900A7D467 /* URL_ShortnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8057111BB3A0C900A7D467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB80571A1BB3A0C900A7D467 /* URL_ShortnerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8057271BB3A11A00A7D467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB80572E1BB3A11A00A7D467 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB80570C1BB3A0C900A7D467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8056F51BB3A0C800A7D467 /* URL Shortner */;
+			targetProxy = BB80570B1BB3A0C900A7D467 /* PBXContainerItemProxy */;
+		};
+		BB8057171BB3A0C900A7D467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8056F51BB3A0C800A7D467 /* URL Shortner */;
+			targetProxy = BB8057161BB3A0C900A7D467 /* PBXContainerItemProxy */;
+		};
+		BB8057341BB3A11A00A7D467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB80572A1BB3A11A00A7D467 /* Shorten */;
+			targetProxy = BB8057331BB3A11A00A7D467 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB8056FD1BB3A0C900A7D467 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8056FE1BB3A0C900A7D467 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB8057021BB3A0C900A7D467 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8057031BB3A0C900A7D467 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BB80572F1BB3A11A00A7D467 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8057301BB3A11A00A7D467 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB80571C1BB3A0C900A7D467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB80571D1BB3A0C900A7D467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB80571F1BB3A0C900A7D467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "URL Shortner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luitel.URL-Shortner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB8057201BB3A0C900A7D467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "URL Shortner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luitel.URL-Shortner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB8057221BB3A0C900A7D467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "URL ShortnerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luitel.URL-ShortnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URL Shortner.app/URL Shortner";
+			};
+			name = Debug;
+		};
+		BB8057231BB3A0C900A7D467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "URL ShortnerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luitel.URL-ShortnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URL Shortner.app/URL Shortner";
+			};
+			name = Release;
+		};
+		BB8057251BB3A0C900A7D467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "URL ShortnerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luitel.URL-ShortnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "URL Shortner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BB8057261BB3A0C900A7D467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "URL ShortnerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luitel.URL-ShortnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "URL Shortner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		BB8057371BB3A11A00A7D467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = Shorten/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luitel.URL-Shortner.Shorten";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BB8057381BB3A11A00A7D467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = Shorten/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luitel.URL-Shortner.Shorten";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB8056F11BB3A0C800A7D467 /* Build configuration list for PBXProject "URL Shortner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB80571C1BB3A0C900A7D467 /* Debug */,
+				BB80571D1BB3A0C900A7D467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB80571E1BB3A0C900A7D467 /* Build configuration list for PBXNativeTarget "URL Shortner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB80571F1BB3A0C900A7D467 /* Debug */,
+				BB8057201BB3A0C900A7D467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8057211BB3A0C900A7D467 /* Build configuration list for PBXNativeTarget "URL ShortnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8057221BB3A0C900A7D467 /* Debug */,
+				BB8057231BB3A0C900A7D467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8057241BB3A0C900A7D467 /* Build configuration list for PBXNativeTarget "URL ShortnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8057251BB3A0C900A7D467 /* Debug */,
+				BB8057261BB3A0C900A7D467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8057361BB3A11A00A7D467 /* Build configuration list for PBXNativeTarget "Shorten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8057371BB3A11A00A7D467 /* Debug */,
+				BB8057381BB3A11A00A7D467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB8056EE1BB3A0C800A7D467 /* Project object */;
+}
